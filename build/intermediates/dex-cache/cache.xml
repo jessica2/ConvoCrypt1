@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/libs/Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/Parse-1.8.2-37119e2de63ff2d82742686a1d763961dcbd0435.jar" />
+    </item>
+    <item
+        jar="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/libs/bolts-android-1.1.4-javadoc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5dd6492c539679411fa30818320b737c410158f">
+        <dex dex="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-javadoc-18b34b8e05c08acec39babc38f9fbda189e408ef.jar" />
+    </item>
+    <item
+        jar="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/libs/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-cfe47cc5efd47a1a1fc8a70afd4f01594de2b1ac.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Development/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-d0fb6da687397f3155409612d502c8e0fd540003.jar" />
+    </item>
+    <item
+        jar="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/libs/ParseCrashReporting-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ccf9e90414e7bb2cf09f4d7c77c42f70c690e118">
+        <dex dex="/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-aaf0039a52519e7f7b6eabff2416ecb161280ae5.jar" />
+    </item>
+
+</items>

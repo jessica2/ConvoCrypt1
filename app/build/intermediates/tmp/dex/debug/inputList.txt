@@ -1,0 +1,6 @@
+/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/classes/debug
+/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-cfe47cc5efd47a1a1fc8a70afd4f01594de2b1ac.jar
+/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.8.2-aaf0039a52519e7f7b6eabff2416ecb161280ae5.jar
+/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-javadoc-18b34b8e05c08acec39babc38f9fbda189e408ef.jar
+/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-d0fb6da687397f3155409612d502c8e0fd540003.jar
+/Users/jessicaverschoyle/AndroidStudioProjects/ConvoCrypt1/app/build/intermediates/pre-dexed/debug/Parse-1.8.2-37119e2de63ff2d82742686a1d763961dcbd0435.jar

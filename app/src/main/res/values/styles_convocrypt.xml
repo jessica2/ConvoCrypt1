@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <style name="Theme.ConvoCrypt" parent="@style/ConvoCrypt">
+
+
+        <item name="android:actionBarItemBackground">@drawable/selectable_background</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.ConvoCrypt</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.ConvoCrypt</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.ConvoCrypt</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.ConvoCrypt</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.ConvoCrypt</item>
+
+        <item name="android:actionModeBackground">@drawable/cab_background_top</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom</item>
+
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.ConvoCrypt</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.ConvoCrypt.Widget</item>
+
+
+</style>
+
+        <style name="ActionBar.Solid.ConvoCrypt" parent="android:Widget.Holo.ActionBar.Solid">
+            <item name="android:background">@drawable/ab_solid</item>
+            <item name="android:backgroundSplit">@drawable/ab_bottom_solid</item>
+            <item name="android:progressBarStyle">@style/ProgressBar.ConvoCrypt</item>
+        </style>
+
+        <style name="ActionBar.Transparent.ConvoCrypt" parent="android:Widget.Holo.ActionBar">
+            <item name="android:background">@drawable/ab_transparent</item>
+            <item name="android:progressBarStyle">@style/ProgressBar.ConvoCrypt</item>
+        </style>
+
+        <style name="PopupMenu.ConvoCrypt" parent="android:Widget.Holo.ListPopupWindow">
+            <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+        </style>
+
+        <style name="DropDownListView.ConvoCrypt" parent="android:Widget.Holo.ListView.DropDown">
+            <item name="android:listSelector">@drawable/selectable_background</item>
+        </style>
+
+        <style name="ActionBarTabStyle.ConvoCrypt" parent="android:Widget.Holo.ActionBar.TabView">
+            <item name="android:background">@drawable/tab_indicator_ab</item>
+        </style>
+
+        <style name="DropDownNav.ConvoCrypt" parent="android:Widget.Holo.DropDownItem.Spinner">
+            <item name="android:background">@drawable/spinner_background_ab</item>
+            <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+            <item name="android:dropDownSelector">@drawable/selectable_background</item>
+        </style>
+
+        <style name="ProgressBar.ConvoCrypt" parent="android:Widget.Holo.ProgressBar.Horizontal">
+            <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        </style>
+
+        <style name="ActionButton.CloseMode.ConvoCrypt" parent="android:Widget.Holo.ActionButton.CloseMode">
+            <item name="android:background">@drawable/btn_cab_done</item>
+        </style>
+
+        <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+        <style name="Theme.ConvoCrypt.Widget" parent="android:Theme.Holo">
+            <item name="android:popupMenuStyle">@style/PopupMenu.ConvoCrypt</item>
+            <item name="android:dropDownListViewStyle">@style/DropDownListView.ConvoCrypt</item>
+        </style>
+
+
+  <style name="ButtonConvoCrypt" parent="android:Widget.Holo.Button">
+	  <item name="android:background">@drawable/convocrypt_btn_default_holo_dark</item>
+  </style>
+
+  <style name="ImageButtonConvoCrypt" parent="android:Widget.Holo.ImageButton">
+	  <item name="android:background">@drawable/convocrypt_btn_default_holo_dark</item>
+  </style>
+</resources>
