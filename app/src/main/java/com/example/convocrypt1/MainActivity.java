@@ -23,6 +23,8 @@ import java.util.List;
 public class MainActivity extends ListActivity {
 
     protected List<ParseObject> cStatus;
+    //change in MainActivity : Test for GitHub
+
 	/*
 	 * 
 	 * To make it make more sense, on your register xml sheet, click on the button you want to link, and on text view, add android:onClick="register"
