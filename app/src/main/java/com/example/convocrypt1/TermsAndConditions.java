@@ -18,9 +18,9 @@ public class TermsAndConditions extends Activity {
         WebView view = new WebView(this);
         view.setVerticalScrollBarEnabled(false);
 
-        ((LinearLayout)findViewById(R.id.inset_web_view)).addView(view);
+//        ((LinearLayout)findViewById(R.id.inset_web_view)).addView(view);
 
-        view.loadData(getString(R.string.hello), "text/html", "utf-8");
+     //   view.loadData(getString(R.string.hello), "text/html", "utf-8");
     }
 
 
