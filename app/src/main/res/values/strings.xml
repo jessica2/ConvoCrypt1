@@ -8,7 +8,6 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_update_status">UpdateStatusActivity</string>
     <string name="title_activity_status_detail_view">StatusDetailView</string>
-
     <string name="activity_name">Preview</string>
     <string name="activity_name_ics">Preview ICS</string>
     <string name="action_label_refresh">Refresh</string>
@@ -25,5 +24,8 @@
     <string name="action_label_bak_none">None</string>
     <string name="action_label_bak_gradient">Gradient</string>
     <string name="action_label_bak_image">Image</string>
+    <string name="title_activity_welcome_page">WelcomePage</string>
+    <string name="title_activity_terms_and_conditions">TermsAndConditions</string>
+    <string name="title_activity_new_contact">NewContact</string>
 
 </resources>

@@ -74,23 +74,24 @@ public final class R {
         public static final int unknown=0x7f020033;
     }
     public static final class id {
-        public static final int action_settings=0x7f090011;
+        public static final int action_settings=0x7f090012;
         public static final int createAccountLogin=0x7f090004;
         public static final int email=0x7f090007;
+        public static final int imgLogo=0x7f09000d;
         public static final int loginButton=0x7f090002;
         public static final int logo=0x7f090009;
-        public static final int logoutUser=0x7f090010;
+        public static final int logoutUser=0x7f090011;
         public static final int password=0x7f090006;
         public static final int passwordLogin=0x7f090001;
         public static final int register=0x7f090008;
         public static final int statusDetailView=0x7f09000a;
-        public static final int statusHP=0x7f09000e;
+        public static final int statusHP=0x7f09000f;
         public static final int statusUpdateButton=0x7f09000c;
         public static final int textView=0x7f090003;
-        public static final int updateStatus=0x7f09000f;
+        public static final int updateStatus=0x7f090010;
         public static final int updateStatusTextBox=0x7f09000b;
         public static final int username=0x7f090005;
-        public static final int usernameHP=0x7f09000d;
+        public static final int usernameHP=0x7f09000e;
         public static final int usernameLogin=0x7f090000;
     }
     public static final class layout {
@@ -99,14 +100,16 @@ public final class R {
         public static final int activity_register=0x7f030002;
         public static final int activity_status_detail_view=0x7f030003;
         public static final int activity_update_status=0x7f030004;
-        public static final int homepage_customlayout=0x7f030005;
+        public static final int activity_welcome_page=0x7f030005;
+        public static final int homepage_customlayout=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f080000;
         public static final int menu_login=0x7f080001;
         public static final int menu_status_detail_view=0x7f080002;
         public static final int menu_update_status=0x7f080003;
-        public static final int register=0x7f080004;
+        public static final int menu_welcome_page=0x7f080004;
+        public static final int register=0x7f080005;
     }
     public static final class string {
         public static final int action_label_bak=0x7f060000;
@@ -132,6 +135,7 @@ public final class R {
         public static final int title_activity_register=0x7f060014;
         public static final int title_activity_status_detail_view=0x7f060015;
         public static final int title_activity_update_status=0x7f060016;
+        public static final int title_activity_welcome_page=0x7f060017;
     }
     public static final class style {
         public static final int ActionBar_Solid_ConvoCrypt=0x7f070000;

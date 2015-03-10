@@ -44,11 +44,6 @@ and now it should work once you click on the button, it should lead you to regis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Parse.enableLocalDatastore(this);
-
-        Parse.initialize(this, "UMGBy2o2d0JPpp9CRzE2YfRteA8Z5i6013o96GLZ", "l62OFC0hyrEVp0a8B8IN906pGqd7bB1TDgrHXBrh");
-
-
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
             // show the user the homepage
