@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:background="@drawable/logo"
-        android:nestedScrollingEnabled="true"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 

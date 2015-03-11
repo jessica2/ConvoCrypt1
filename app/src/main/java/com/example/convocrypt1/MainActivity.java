@@ -65,9 +65,10 @@ and now it should work once you click on the button, it should lead you to regis
                 }
             });
         } else {
-            // show the login screen
+            // show the login class screen
             Intent takeUserToLogin =new Intent(this, LoginActivity.class);
             startActivity(takeUserToLogin);
+
         }
     }
 

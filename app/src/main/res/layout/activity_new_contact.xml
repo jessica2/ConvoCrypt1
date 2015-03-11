@@ -11,7 +11,6 @@
         android:id="@+id/imageButton"
         android:src="@drawable/add"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
     <EditText
@@ -22,8 +21,7 @@
         android:ems="10"
         android:id="@+id/editText"
         android:layout_alignTop="@+id/imageButton"
-        android:layout_toRightOf="@+id/imageButton"
-        android:layout_toEndOf="@+id/imageButton" />
+        android:layout_toRightOf="@+id/imageButton"/>
 
     <EditText
         android:layout_width="wrap_content"

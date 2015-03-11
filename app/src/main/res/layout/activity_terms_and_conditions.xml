@@ -41,9 +41,7 @@
         android:clickable="false"
         android:layout_alignTop="@+id/textView4"
         android:layout_toLeftOf="@+id/textView4"
-        android:layout_toStartOf="@+id/textView4"
-        android:layout_marginRight="32dp"
-        android:layout_marginEnd="32dp" />
+        android:layout_marginRight="32dp"/>
 
     <ImageView
         android:layout_width="wrap_content"

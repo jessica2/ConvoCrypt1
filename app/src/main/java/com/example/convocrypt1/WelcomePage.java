@@ -35,7 +35,7 @@ public class WelcomePage extends Activity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(WelcomePage.this, MainActivity.class);
+                Intent i = new Intent(WelcomePage.this, TermsAndConditions.class);
                 startActivity(i);
 
                 // close this activity
@@ -43,8 +43,8 @@ public class WelcomePage extends Activity {
             }
         }, SPLASH_TIME_OUT);
         Parse.enableLocalDatastore(this);
-        Parse.initialize(this, "UMGBy2o2d0JPpp9CRzE2YfRteA8Z5i6013o96GLZ", "l62OFC0hyrEVp0a8B8IN906pGqd7bB1TDgrHXBrh");
 
+        Parse.initialize(this, "UMGBy2o2d0JPpp9CRzE2YfRteA8Z5i6013o96GLZ", "l62OFC0hyrEVp0a8B8IN906pGqd7bB1TDgrHXBrh");
     }
 
 
