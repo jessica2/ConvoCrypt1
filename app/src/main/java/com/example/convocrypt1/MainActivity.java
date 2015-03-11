@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -22,27 +24,33 @@ import java.util.List;
 
 public class MainActivity extends ListActivity {
 
-    protected List<ParseObject> cStatus;
     //change in MainActivity : Test for GitHub
 
-	/*
-	 * 
-	 * To make it make more sense, on your register xml sheet, click on the button you want to link, and on text view, add android:onClick="register"
+    // messages list
+    protected List<ParseObject> cStatus;
 
-THEN on your register java class,
+    private Button btnSend;
+    private EditText inputMsg;
 
-public void register(View view){
-        Intent reg = new Intent(this, page you want to link to.class); //you need .class after file name
-        startActivity(reg);
-    }
-
-and now it should work once you click on the button, it should lead you to register page. (non-Javadoc)
-	 * 
-	 */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btnSend = (Button) findViewById(R.id.btnSend);
+
+        btnSend.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // Sending message to web socket server
+
+
+                // Clearing the input filed once message was sent
+                inputMsg.setText("");
+            }
+        });
+
 
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
@@ -70,6 +78,7 @@ and now it should work once you click on the button, it should lead you to regis
             startActivity(takeUserToLogin);
 
         }
+
     }
 
 
